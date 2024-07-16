@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/glide.core.min.css" rel="stylesheet" />
+    <link href="css/glide.theme.min.css" rel="stylesheet" />
+
+</head>
+<body>
+
+<h1> Wooden Furniture store </h1>
+
+<div class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        <li class="glide__slide">0</li>
+        <li class="glide__slide">1</li>
+        <li class="glide__slide">2</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+  </div>
+</div>
+
+<script>
+    new Glide('.glide').mount()
+  </script>
+
+    <a href="assets/images/furniture1.jpg" data-lightbox="image-1" data-title="Table">Table</a>
+    <a href="assets/images/furniture2.jpg" data-lightbox="image-1" data-title="Chair">Chair</a>
+    <a href="assets/images/furniture3.jpg" data-lightbox="image-1" data-title="Stand">Night Stand</a>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+</body>
+</html>
