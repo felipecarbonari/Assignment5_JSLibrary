@@ -13,34 +13,54 @@
 </head>
 <body>
 
+
+  <canvas id="canvas-basic"> </canvas>
+
 <h1> Wooden Furniture store </h1>
+
+<div class="container">
 
 <div class="glide">
     <div class="glide__track" data-glide-el="track">
       <ul class="glide__slides">
-        <li class="glide__slide">0</li>
-        <li class="glide__slide">1</li>
-        <li class="glide__slide">2</li>
+        <li class="glide__slide"> <h2>Table </h2> <a href="assets/images/furniture1.jpg" data-lightbox="image-1" data-title="Table">  <img src="assets/images/furniture1.jpg">  </a> <h2> $90 </h2> </li>
+        <li class="glide__slide"> <h2>Chair </h2> <a href="assets/images/furniture2.jpg" data-lightbox="image-2" data-title="Chair">  <img src="assets/images/furniture2.jpg">  </a> <h2> $40 </h2></li>
+        <li class="glide__slide"> <h2>Night Stand </h2> <a href="assets/images/furniture3.jpg" data-lightbox="image-3" data-title="Stand">  <img src="assets/images/furniture3.jpg"> </a> <h2> $60 </h2></li>
       </ul>
     </div>
   </div>
 
   <div class="glide__arrows" data-glide-el="controls">
-    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"> prev </button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"> next </button>
   </div>
+
+  <div>
+    <canvas id="myChart"></canvas>
+  </div>
+
 </div>
 
-<script>
-    new Glide('.glide').mount()
-  </script>
-
-    <a href="assets/images/furniture1.jpg" data-lightbox="image-1" data-title="Table">Table</a>
-    <a href="assets/images/furniture2.jpg" data-lightbox="image-1" data-title="Chair">Chair</a>
-    <a href="assets/images/furniture3.jpg" data-lightbox="image-1" data-title="Stand">Night Stand</a>
-
+<!-- LIGHTBOX -->
     <script src="js/script.js"></script>
+
+    <!-- GLIDE -->
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+<!-- GLIDE COROUSEL -->
+<script src="js/carousel.js"></script>
+
+<!-- GRANIM COROUSEL -->
+
+<script src="js/granim.min.js"></script>
+<script src="js/reat.js"></script>
+
+<!-- CHART JS-->
+<script src="js/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/chartstruc.js"></script>
+  
+
 
 </body>
 </html>

@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "lightbox2": "^2.11.4"
+    "chart.js": "^4.4.3",
+    "granim": "^2.0.0",
+    "lightbox2": "^2.11.4",
+    "react-granim": "^1.1.0"
   },
   "name": "assignment5_jslibrary",
   "version": "1.0.0",
